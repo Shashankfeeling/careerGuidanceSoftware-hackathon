@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_career/login.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'login.dart';
+
+import 'package:flutter_career/login.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'Career Guidance',
       theme: ThemeData(
 
-        fontFamily: ,
+        
         primarySwatch: Colors.blue,
       ),
       home: mylogin(),
