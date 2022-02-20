@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 import 'package:flutter_career/login.dart';
-
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:google_fonts/google_fonts.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -16,10 +16,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Career Guidance',
       theme: ThemeData(
-
+        fontFamily: GoogleFonts.poppins().fontFamily
         
-        primarySwatch: Colors.blue,
+       ,
       ),
+      debugShowCheckedModeBanner: false,
       home: mylogin(),
     );
   }
